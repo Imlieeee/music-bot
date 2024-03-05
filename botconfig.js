@@ -20,8 +20,8 @@ module.exports = {
   Website: process.env.Website || "http://127.0.0.1/",
 
   Presence: {
-    status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
+    status: "idle", // You can show online, idle, and dnd
+    name: "gaana", // The message shown
     type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
@@ -36,11 +36,12 @@ module.exports = {
   },
   
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", 
-    ClientSecret: process.env.Spotify_ClientSecret || "", 
+    ClientID: process.env.Spotify_ClientID || "bf5ee2a72bae40ffadc71a47280e5ff9", 
+    ClientSecret: process.env.Spotify_ClientSecret || "053469ffeb3844079fab734ebf3090c2", 
   },
 
 
  
 
 };
+
